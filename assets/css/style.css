@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-image: url(../images/blog-generic-healthcare-pharma.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav-wrapper {
+    background-color: rgb(52, 104, 128);
+    padding: 3%;
+}
+/* Floating Cards  */
+.cards {
+    display: flex;
+    justify-content: space-between;
+}
+.card-img {
+    width: 150px;
+    height: 150px;
+}
+.card-content {
+    height: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

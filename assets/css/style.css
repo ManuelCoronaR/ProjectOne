@@ -8,8 +8,15 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 .nav-wrapper {
-    background-color: rgb(52, 104, 128);
-    padding: 3%;
+    background-color: rgb(190, 225, 241);
+    
+}
+.right, 
+.hide-on-med-and-down {
+    width: 15%;
+}
+a {
+    lin
 }
 /* Floating Cards  */
 .cards {
@@ -23,7 +30,12 @@ body {
 .card-content {
     height: 150px;
 }
-
+.brand-logo {
+    width: 250px;
+    height: 40px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
 
 
 

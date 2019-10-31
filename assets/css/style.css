@@ -2,6 +2,7 @@
     box-sizing: border-box;
 }
 body {
+    background-color: rgb(95, 126, 126);
     background-image: url(../images/blog-generic-healthcare-pharma.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -35,6 +36,13 @@ a {
     height: 40px;
     margin-top: 5px;
     margin-left: 10px;
+}
+#box1 {
+    width: 200px;
+    height: 400px;
+    margin-top: 30px;
+
+
 }
 
 

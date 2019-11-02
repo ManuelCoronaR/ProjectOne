@@ -1,0 +1,189 @@
+<!-- Doctype declaration for a html file  -->
+<!DOCTYPE html>
+<!-- Language selection English USA  -->
+<html lang="en-us">
+
+<head>
+
+    <!-- Specifies the character encoding for the HTML document.
+        Common values:
+        UTF-8 - Character encoding for Unicode
+        ISO-8859-1 - Character encoding for the Latin alphabet -->
+    <meta charset="UTF-8">
+
+    <!-- Page's dimensions and scale in viewport, website is optimized for mobile -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- The X-UA-Compatible meta tag is a http-equiv meta tag. -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- healthcare favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <!-- Icon's link  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Reset CSS  -->
+    <!--<link rel="stylesheet" href="assets/css/reset.css">
+
+    <!- fontawesome css link  -->
+    <!--<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+        integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+    <!-Compiled and minified - Materialize CSS  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- I will be creating a new file for every css code so we dont override the code after creating to many classes or ids  -->
+    <link rel="stylesheet" href="assets/css/socialmediabutton.css">
+
+    <!-- Our CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- This is the title I can think of so far, it can be changed at any time (Manuel) -->
+    <title>Family Health Services & More</title>
+
+
+</head>
+
+<body>
+
+    <nav>
+        <div class="nav-wrapper">
+            <a href="#!" class="brand-logo"><i class="material-icons"><img src="assets/images/logo-via-logohub.png"
+                        class="brand-logo" alt="Logo"></i></a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+
+            <ul class="right hide-on-med-and-down">
+                <li><a href="sass.html"><i class="material-icons">search</i></a></li>
+                <li><a href="badges.html"><i class="material-icons">view_module</i></a></li>
+                <li><a href="mobile.html"><i class="material-icons">favorite_border</i></a></li>
+            </ul>
+
+        </div>
+    </nav>
+
+    <!--one row, and four columns have been added. Each column contains one button & image all integrated, and acting as a one.-->
+    <!--classes p1 and bx1 were assigned to <p> and <img> with their associated parameters in style.css-->
+
+    <body>
+
+
+
+
+        <div class="container">
+            <div class="row">
+                <ul class="slides">
+                    <li>
+                        <div class="grid-example col s3">
+
+                            <h3 class="p1 caption center-align">Dentists</h3>
+                            <button class="btn-flat transparent" id="btn1"><img class="circle responsive-img z-depth-5"
+                                    src="assets/images/family-dentist-el-paso-celebrity-smiles-1024x681.jpg" id="bx1"></button>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="grid-example col s3">
+                            <h3 class="p1 caption center-align">Oculists</h3>
+                            <button class="btn-flat transparent" id="btn2"><img class="circle responsive-img z-depth-5"
+                                    src="assets/images/oculist-24194487.jpg" id="bx1"></button>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="grid-example col s3">
+                            <h3 class="p1 caption center-align">Physicians</h3>
+                            <button class="btn-flat transparent" id="btn3"><img class="circle responsive-img z-depth-5"
+                                    src="assets/images/pa-scholarships.jpg" id="bx1"></button>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="grid-example col s3">
+                            <h3 class="p1 caption center-align">Veterinarians</h3>
+                            <button class="btn-flat transparent" id="btn4"><img class="circle responsive-img z-depth-5"
+                                    src="assets/images/surgery_lt-900x864.jpg" id="bx1"></button>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+
+
+
+        <!-- <div class="row" id="r1"></div>
+        <div class="row"></div>
+        <div class="col s3">
+            <p class="p1">Dentists</p>
+            <button class="btn-flat transparent" id="btn1"><img src="assets/images/dentist.jpg" id="bx1"></button>
+        </div>
+        <div class="col s3">
+            <p class="p1">Oculists</p>
+            <button class="btn-flat transparent" id="btn2"><img src="assets/images/home_oculist_treatments1.jpg"
+                    id="bx1"></button>
+        </div>
+        <div class="col s3">
+            <p class="p1">Physicians</p>
+            <button class="btn-flat transparent" id="btn3"><img src="assets/images/images.jpg" id="bx1"></button>
+        </div>
+        <div class="col s3">
+            <p class="p1">Veterinarians</p>
+            <button class="btn-flat transparent" id="btn4"><img src="assets/images/surgery_lt-900x864.jpg"
+                    id="bx1"></button>
+        </div>
+        </div> -->
+
+        <!-- This is the button that  will add the user selection to favorites, once this feature be better structure then we can enable it -->
+        <!-- <a class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons">add</i></a> 
+        <ul id="menu" &gt;>
+
+        <a class="menu-button icon-plus" href="#menu" title="Show navigation">
+            <span class="fas fa-share-alt"></span></a>
+
+        <a class="menu-button icon-minus" href="#0" title="Hide navigation">
+            <span class="fas fa-share-alt"></span></a>
+
+        <li class="menu-item">
+            <a href="#menu">
+                <span class="fab fa-github"></span>
+            </a>
+        </li>
+
+        <li class="menu-item">
+            <a href="#menu">
+                <span class="fab fa-facebook"></span>
+            </a>
+        </li>
+
+        <li class="menu-item">
+            <a href="#menu">
+                <span class="fab fa-twitter"></span>
+            </a>
+        </li>
+
+        <li class="menu-item">
+            <a href="#menu">
+                <span class="fab fa-instagram"></span>
+            </a>
+        </li>
+    </ul> -->
+
+        <!-- Compiled and minified JavaScript - Materialize JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+        <!-- jquery -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+        <!-- Our JavaScript -->
+        <script src="assets/javascript/app.js"></script>
+
+
+    </body>
+
+</html>

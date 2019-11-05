@@ -23,30 +23,30 @@ $('#str1').on('click', function rStart() {
 });
 
 
-//Function that takes to the Dentists html page.
+//Function that takes to the Dentists's html page.
 
 $('#btn1').on('click', function Dentist() {
-    window.location.href = "/cards.html";
+    window.location.href = "/dentist.html";
 
 });
 
-//Function that takes to the Oculists html page.
+//Function that takes to the Oculists's html page.
 
 $('#btn2').on('click', function Oculist() {
-    window.location.href = "/cards.html";
+    window.location.href = "/oculist.html";
 
 });
 
-//Function that takes to the Physicians html page.
+//Function that takes to the Physicians's html page.
 
 $('#btn3').on('click', function Physician() {
-    window.location.href = "/cards.html";
+    window.location.href = "/phy.html";
 
 });
 
-//Function that takes to the Veterinarians html page.
+//Function that takes to the Veterinarians's html page.
 
 $('#btn4').on('click', function Veterinarian() {
-    window.location.href = "/cards.html";
+    window.location.href = "/vet.html";
 
 });

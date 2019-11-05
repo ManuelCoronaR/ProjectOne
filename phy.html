@@ -2,8 +2,20 @@
 <!DOCTYPE html>
 <!-- Language selection English USA  -->
 <html lang="en-us">
-
+        <script src="https://api.mqcdn.com/sdk/mapquest-js/v1.3.2/mapquest.js"></script>
+        <link type="text/css" rel="stylesheet" href="https://api.mqcdn.com/sdk/mapquest-js/v1.3.2/mapquest.css"/>
 <head>
+
+        
+
+        L.mapquest.key = '400686cae5cf69d04b866752e5229157';
+
+        // 'map' refers to a <div> element with the ID map
+        L.mapquest.map('map', {
+          center: [37.7749, -122.4194],
+          layers: L.mapquest.tileLayer('map'),
+          zoom: 12
+        }); 
 
     <!-- Specifies the character encoding for the HTML document.
         Common values:

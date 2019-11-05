@@ -15,31 +15,21 @@ main {
     flex: 1 0 auto;
 }
 .nav-wrapper {
-    background-color: rgb(118, 196, 233);
+    background-color: rgb(85, 180, 224);
     
 }
 .right, 
 .hide-on-med-and-down {
     width: 15%;
 }
-
-/* Floating Cards  */
-.cards {
-    display: flex;
-    justify-content: space-between;
-}
-.card-img {
-    width: 150px;
-    height: 150px;
-}
-.card-content {
-    height: 150px;
-}
 .brand-logo {
     width: 250px;
     height: 40px;
     margin-top: 5px;
     margin-left: 10px;
+}
+.container {
+    margin-top: 200px;
 }
 #box1 {
     width: 200px;
@@ -56,7 +46,6 @@ main {
 .p1{
     font-size: 25px;
     font-weight: bold;
-    margin-left: 80px;
     text-justify: center;
 }
 
@@ -73,8 +62,9 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
+    height: 100px;
     background-color:rgb(21, 181, 235);
-    opacity: 0.6;
+    opacity: 0.3;
     color: rgb(3, 3, 3);
     text-align: center;
 }

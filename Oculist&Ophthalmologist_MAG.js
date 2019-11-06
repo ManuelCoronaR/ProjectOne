@@ -1,27 +1,3 @@
-// jQuery Tool button from Materialize.com
-
-/*$('.fixed-action-btn').floatingActionButton({
-    toolbarEnabled: true
-});*/
-
-/*document.addEventListener('DOMContentLoaded', function () {
-    var elems = document.querySelectorAll('.sidenav');
-    var instances = M.Sidenav.init(elems, options);
-});
-$(".material-icons").css("color".black);
-
-// Slides
-document.addEventListener('DOMContentLoaded', function () {
-    var elems = document.querySelectorAll('.slider');
-    var instances = M.Slider.init(elems, options);
-});*/
-
-//Function  to re-start the app. The id has been named "str1"
-
-//$('#str1').on('click', function rStart() {
-//    window.location.reload(false);
-//});
-
 $('#add-to-do').on("click", function (event) {
 
     event.preventDefault();
@@ -30,7 +6,6 @@ $('#add-to-do').on("click", function (event) {
 
     var queryURL = 'https://api.betterdoctor.com/2016-03-01/practices?location=25.702314,-80.357333,10&limit=5000&user_key=56c714e5e2cf01c81e612abf0649cc8b';
 
-    console.log($('option').val().trim());
 
     // Performing our AJAX GET request
     $.ajax({
@@ -53,8 +28,8 @@ $('#add-to-do').on("click", function (event) {
                 } catch (error) {
                     sec = "N/A"; /* any default can be used */
                 };
-                bar = $('#op1').val().trim();
-                if (sec === bar) {
+                bar3 = $('#op3').val().trim();
+                if (sec===bar3) {
                     var name = results[i].name;
                     var street = results[i].visit_address.street;
                     var city = results[i].visit_address.city;

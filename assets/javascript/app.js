@@ -1,27 +1,3 @@
-// jQuery Tool button from Materialize.com
-
-/*$('.fixed-action-btn').floatingActionButton({
-    toolbarEnabled: true
-});*/
-
-/*document.addEventListener('DOMContentLoaded', function () {
-    var elems = document.querySelectorAll('.sidenav');
-    var instances = M.Sidenav.init(elems, options);
-});
-$(".material-icons").css("color".black);
-
-// Slides
-document.addEventListener('DOMContentLoaded', function () {
-    var elems = document.querySelectorAll('.slider');
-    var instances = M.Slider.init(elems, options);
-});*/
-
-//Function  to re-start the app. The id has been named "str1"
-
-//$('#str1').on('click', function rStart() {
-//    window.location.reload(false);
-//});
-
 $('#add-to-do').on("click", function (event) {
 
     event.preventDefault();
@@ -64,8 +40,8 @@ $('#add-to-do').on("click", function (event) {
                     var name = results[i].name;
 
                     var p = $("<p>");
-                    var p1 = $("<h3>").text(name);
-                    var p2 = $("<h4>").text(sec);
+                    var p1 = $("<h5>").text(name);
+                    var p2 = $("<h6>").text(sec);
                     var p3 = $("<p>").text(street);
                     var p4 = $("<p>").text(city + "," + state + "," + zip);
                     var p5 = $("<p>").text("phone No:" + "" + phone);

@@ -40,8 +40,8 @@ $('#add-to-do').on("click", function (event) {
                     var name = results[i].name;
 
                     var p = $("<p>");
-                    var p1 = $("<h3>").text(name);
-                    var p2 = $("<h4>").text(sec);
+                    var p1 = $("<h5>").text(name);
+                    var p2 = $("<h6>").text(sec);
                     var p3 = $("<p>").text(street);
                     var p4 = $("<p>").text(city + "," + state + "," + zip);
                     var p5 = $("<p>").text("phone No:" + "" + phone);

@@ -62,7 +62,7 @@
 
             <ul class="right hide-on-med-and-down">
                 <li><a class="btn-flat transparent"><i class="material-icons">search</i></a></li>
-                <li><a class="btn-flat transparent"><i class="material-icons">favorite_border</i></a></li>
+                <li><a class="btn-flat transparent"><i class="material-icons" id="rP1">refresh</i></a></li>
             </ul>
 
         </div>
@@ -133,7 +133,7 @@
                 <div class="col s1"></div>
                 <div class="col s7">
                     <form>
-                        <span>Zip Code: <input id="to-do" type="text">
+                        <span>Zip Code: <input id="to-do" type="text" class="form-control clearFields" name="fullName" value="">
                             <input id="add-to-do" value="submit" type="submit"></span>
                     </form>
                     <div id="doctors-appear-here"></div>
@@ -154,37 +154,7 @@
 
 
 
-        <footer>
-            <div class="container">
-                <div class="row">
-                    <div class="col l6 s12">
-                        <h5 class="white-text">Footer Content</h5>
-                        <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer
-                            content.</p>
-                    </div>
-                    <div class="col l4 offset-l2 s12">
-                        <h5 class="white-text">Links</h5>
-                        <ul>
-                            <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
-                            <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
-                            <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
-                            <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="footer-copyright">
-                <div class="container">
-                    © 2014 Copyright Text
-                    <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
-                </div>
-            </div>
-        </footer>
-        <!-- Compiled and minified JavaScript - Materialize JavaScript -->
-        <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>-->
-
-        <!-- jquery -->
-        <!---<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>--->
+        <footer id="footer"></footer>
 
 
     </body>

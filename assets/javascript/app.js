@@ -14,6 +14,7 @@ $('#add-to-do').on("click", function (event) {
 
 
     // Performing our AJAX GET request
+    
     $.ajax({
         url: queryURL,
         method: "GET"
@@ -85,5 +86,11 @@ $('#add-to-do').on("click", function (event) {
                 }
             });
     };
+});
+
+//Function  to re-start the app.
+
+$('#rP1').on('click', function rStart() {
+    window.location.reload(false);
 });
 

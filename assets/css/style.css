@@ -3,7 +3,7 @@
 }
 body {
     background-color: white;
-    background-image: url(../images/watercolor-brush-texture-for-photoshop.jpg);
+    background-image: url(../images/tex2res5.png);
     background-repeat: no-repeat;
     background-size: 100%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -51,20 +51,30 @@ main {
 
 
 #bx1 {
-    width: 250px;
-    height:250px;
+    width: 220px;
+    height:220px;
 }
 .circle {
-    padding:35px;
+    padding:25px;
 }
+<<<<<<< HEAD
 footer {
+=======
+
+#footer {
+>>>>>>> c3145857ad4e06ce12be026b0f0a39acb6b3cef4
     position: absolute;
     background-color: rgb(85, 180, 224);
     bottom: 0;
     width: 100%;
+<<<<<<< HEAD
     height: 3.5rem;  
 }
 
+=======
+    height: 3.5rem;            
+ }
+>>>>>>> c3145857ad4e06ce12be026b0f0a39acb6b3cef4
 
 
 

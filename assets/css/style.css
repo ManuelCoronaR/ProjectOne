@@ -59,8 +59,7 @@ main {
 .circle {
     padding:25px;
 }
-
-#footer {
+footer {
     position: absolute;
     opacity: 0.6;
     background-color: rgb(85, 180, 224);
@@ -70,6 +69,8 @@ main {
     text-align: center;
     padding-top: 18px;;            
 }
+
+
 
 
 

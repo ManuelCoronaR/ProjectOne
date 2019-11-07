@@ -6,34 +6,30 @@ body {
     background-image: url(../images/watercolor-brush-texture-for-photoshop.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+main {
+    flex: 1 0 auto;
 }
 .nav-wrapper {
-    background-color: rgb(118, 196, 233);
+    background-color: rgb(85, 180, 224);
     
 }
 .right, 
 .hide-on-med-and-down {
     width: 15%;
 }
-
-/* Floating Cards  */
-.cards {
-    display: flex;
-    justify-content: space-between;
-}
-.card-img {
-    width: 150px;
-    height: 150px;
-}
-.card-content {
-    height: 150px;
-}
 .brand-logo {
     width: 250px;
     height: 40px;
     margin-top: 5px;
     margin-left: 10px;
+}
+.container {
+    margin-top: 200px;
 }
 #box1 {
     width: 200px;
@@ -50,18 +46,27 @@ body {
 .p1{
     font-size: 25px;
     font-weight: bold;
-    margin-left: 80px;
     text-justify: center;
-    /* text-shadow: 3px 2px grey; */
 }
 
 
-#bx1{
+#bx1 {
     width: 250px;
     height:250px;
 }
 .circle {
-    padding:30px;
+    padding:35px;
+}
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background-color:rgb(21, 181, 235);
+    opacity: 0.3;
+    color: rgb(3, 3, 3);
+    text-align: center;
 }
 
 

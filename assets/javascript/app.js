@@ -92,7 +92,7 @@ $('#add-to-do').on("click", function (event) {
                         var p4a = $("</br>");
                         var p5 = $("<span>").text("phone No:" + "" + phone);
 
-                        p = p.prepend(p1, p1a,p2,p2a, p3, p3a,p4, p4a,p5);
+                        p = p.prepend(p1, p1a, p2, p2a, p3, p3a, p4, p4a, p5);
 
                         gifDiv2.append(p);
 
@@ -106,7 +106,7 @@ $('#add-to-do').on("click", function (event) {
     };
 });
 
-$( "#to-do" ).empty();
+$("#to-do").empty();
 
 //Function  to re-start the app.
 
@@ -117,6 +117,8 @@ $('#rP1').on('click', function rStart() {
 //Function  to search in google
 
 //$("#rP2").click(function () {
- //   window.location.href = 'https://www.google.com';
+//   window.location.href = 'https://www.google.com';
 //})
+
+// Search Btn in NavBar
 

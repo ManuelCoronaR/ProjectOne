@@ -106,8 +106,6 @@ $('#add-to-do').on("click", function (event) {
     };
 });
 
-$("#to-do").empty();
-
 //Function  to re-start the app.
 
 $('#rP1').on('click', function rStart() {

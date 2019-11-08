@@ -57,24 +57,28 @@ main {
 .circle {
     padding:25px;
 }
-<<<<<<< HEAD
 footer {
-=======
-
-#footer {
->>>>>>> c3145857ad4e06ce12be026b0f0a39acb6b3cef4
     position: absolute;
     background-color: rgb(85, 180, 224);
     bottom: 0;
     width: 100%;
-<<<<<<< HEAD
     height: 3.5rem;  
 }
 
-=======
-    height: 3.5rem;            
- }
->>>>>>> c3145857ad4e06ce12be026b0f0a39acb6b3cef4
+p {
+    font-size: 15px;
+}
+
+h6{
+    font-weight: bold;
+}
+
+#add-to-do{
+    background-color: darkblue;
+    color:white;
+
+}
+
 
 
 

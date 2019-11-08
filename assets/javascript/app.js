@@ -14,7 +14,7 @@ $('#add-to-do').on("click", function (event) {
 
 
     // Performing our AJAX GET request
-    
+
     $.ajax({
         url: queryURL,
         method: "GET"
@@ -46,14 +46,16 @@ $('#add-to-do').on("click", function (event) {
             // After the data comes back from the API
             .then(function (response) {
                 // Storing an array of results in the results variable
-                
+
                 var results = response.data;
 
                 // Looping over every result item
                 for (var i = 0; i < results.length; i++) {
                     // Creating a div for the gif
-                    var gifDiv = $("<div>");
-
+                    var gifDiv1 = $("<div>");
+                    var gifDiv2 = $("<div>");
+                    gifDiv1.addClass("card blue-grey darken-1");
+                    gifDiv2.addClass("card-content white-text");
 
                     try {
                         sec = results[i].doctors[0].specialties[0].actor;
@@ -68,20 +70,27 @@ $('#add-to-do').on("click", function (event) {
                         var state = results[i].visit_address.state;
                         var zip = results[i].visit_address.zip;
                         var phone = results[i].phones[0].number;
-                        var name = results[i].name;
 
                         var p = $("<p>");
-                        var p1 = $("<h3>").text(name);
-                        var p2 = $("<h4>").text(sec);
-                        var p3 = $("<p>").text(street);
-                        var p4 = $("<p>").text(city + "," + state + "," + zip);
-                        var p5 = $("<p>").text("phone No:" + "" + phone);
+                        var p1 = $("<span>").text(name);
+                        var p1a = $("</br>");
+                        var p2 = $("<span>").text(sec);
+                        var p2a = $("</br>");
+                        var p3 = $("<span>").text(street);
+                        var p3a = $("</br>");
+                        var p4 = $("<span>").text(city + "," + state + "," + zip);
+                        var p4a = $("</br>");
+                        var p5 = $("<span>").text("phone No:" + "" + phone);
 
-                        p = p.prepend(p1, p2, p3, p4, p5);
+                        p = p.prepend(p1, p1a,p2,p2a, p3, p3a,p4, p4a,p5);
 
-                        gifDiv.append(p);
+                        gifDiv2.append(p);
 
-                        $("#doctors-appear-here").prepend(gifDiv);
+                        gifDiv1.append(gifDiv2);
+
+
+                        $("#doctorsList").append(gifDiv1);
+                        //doctorsList.style.display = 'block';
                     }
                 }
             });
@@ -93,4 +102,8 @@ $('#add-to-do').on("click", function (event) {
 $('#rP1').on('click', function rStart() {
     window.location.reload(false);
 });
+
+//$("#rP2").click(function () {
+ //   window.location.href = 'https://www.google.com';
+//})
 

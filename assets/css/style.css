@@ -113,7 +113,7 @@ th {
 
 /* Footer */
 footer {
-    position: absolute;
+    position: fixed;
     opacity: 0.8;
     background-color: rgba(56, 169, 221, 0.719);
     bottom: 0;

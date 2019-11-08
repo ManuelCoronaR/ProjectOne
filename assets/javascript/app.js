@@ -51,18 +51,28 @@ $('#add-to-do').on("click", function (event) {
 
                 // Looping over every result item
                 for (var i = 0; i < results.length; i++) {
-                    // Creating a div for the gif
+
+                    // Creating a couple of div's with their classes associated with Materialize that will eventually 
+                    // store the data from the second AJAX call 
+
                     var gifDiv1 = $("<div>");
                     var gifDiv2 = $("<div>");
                     gifDiv1.addClass("card blue-grey darken-1");
                     gifDiv2.addClass("card-content white-text");
+
+
+                    // to avoid those dang cannot read property of undefined errors
 
                     try {
                         sec = results[i].doctors[0].specialties[0].actor;
                     } catch (error) {
                         sec = "N/A"; /* any default can be used */
                     };
+
                     bar1 = $('#op1').val().trim();
+
+                    // to make sure that data stored is associated with the doctor's specialty chosen by the user 
+
                     if (sec === bar1) {
                         var name = results[i].name;
                         var street = results[i].visit_address.street;
@@ -90,18 +100,21 @@ $('#add-to-do').on("click", function (event) {
 
 
                         $("#doctorsList").append(gifDiv1);
-                        //doctorsList.style.display = 'block';
                     }
                 }
             });
     };
 });
 
+$( "#to-do" ).empty();
+
 //Function  to re-start the app.
 
 $('#rP1').on('click', function rStart() {
     window.location.reload(false);
 });
+
+//Function  to search in google
 
 //$("#rP2").click(function () {
  //   window.location.href = 'https://www.google.com';

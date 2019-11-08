@@ -65,7 +65,6 @@ footer {
     background-color: rgb(85, 180, 224);
     bottom: 0;
     width: 100%;
-<<<<<<< HEAD
     height: 3.5rem;  
 }
 
@@ -82,13 +81,10 @@ h6{
     color:white;
 
 }
-=======
-    height: 3.5rem;
-    text-align: center;
-    padding-top: 18px;;            
-}
 
->>>>>>> ba260e16334dbc83c12882fc7cc57204f9c0cb4d
+#to-do:hover{
+    background: lightblue;  
+}
 
 
 

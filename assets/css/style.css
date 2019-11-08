@@ -61,7 +61,11 @@ main {
 }
 footer {
     position: fixed;
+<<<<<<< HEAD
     opacity: 0.6;
+=======
+     opacity: 0.6;
+>>>>>>> ecbd14df0edc4949790712d064cbe57bbf56b049
     background-color: rgb(85, 180, 224);
     bottom: 0;
     width: 100%;

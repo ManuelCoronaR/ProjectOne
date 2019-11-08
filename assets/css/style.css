@@ -16,8 +16,8 @@ main {
 }
 .nav-wrapper {
     background-color: rgb(85, 180, 224);
-    
 }
+
 .right, 
 .hide-on-med-and-down {
     width: 15%;
@@ -44,6 +44,7 @@ main {
 }
 
 .p1{
+    margin-left: 150px;
     font-size: 25px;
     font-weight: bold;
     text-justify: center;
@@ -53,15 +54,18 @@ main {
 #bx1 {
     width: 220px;
     height:220px;
+    margin-left: 100px;
 }
 .circle {
     padding:25px;
 }
 footer {
     position: absolute;
+    opacity: 0.6;
     background-color: rgb(85, 180, 224);
     bottom: 0;
     width: 100%;
+<<<<<<< HEAD
     height: 3.5rem;  
 }
 
@@ -78,6 +82,13 @@ h6{
     color:white;
 
 }
+=======
+    height: 3.5rem;
+    text-align: center;
+    padding-top: 18px;;            
+}
+
+>>>>>>> ba260e16334dbc83c12882fc7cc57204f9c0cb4d
 
 
 

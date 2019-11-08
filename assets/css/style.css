@@ -4,7 +4,7 @@
 
 body {
     background-color: white;
-    background-image: url(../images/tex2res5.png);
+    background-image: url(../images/plainbackground.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -114,7 +114,6 @@ th {
 /* Footer */
 footer {
     position: fixed;
-<<<<<<< HEAD
     opacity: 0.8;
     background-color: rgba(56, 169, 221, 0.719);
     bottom: 0;
@@ -124,17 +123,11 @@ footer {
     color: white;
     margin-top: 1000px;
     margin-bottom: 0;
-=======
-<<<<<<< HEAD
     opacity: 0.6;
-=======
-     opacity: 0.6;
->>>>>>> ecbd14df0edc4949790712d064cbe57bbf56b049
     background-color: rgb(85, 180, 224);
     bottom: 0;
     width: 100%;
-    height: 2.0rem;  
->>>>>>> ef4ec0e8b421acfb81da4f2b76072dcff42af194
+    height: 3.5rem;  
 }
 .fa {
     padding: 10px;

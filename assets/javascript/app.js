@@ -114,11 +114,4 @@ $('#rP1').on('click', function rStart() {
     window.location.reload(false);
 });
 
-//Function  to search in google
-
-//$("#rP2").click(function () {
-//   window.location.href = 'https://www.google.com';
-//})
-
-// Search Btn in NavBar
 

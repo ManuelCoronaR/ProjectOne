@@ -32,8 +32,8 @@
 
     <!-- Icon's link  -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    
-    
+
+
     <!-- Google fonts -->
     <link href="https://fonts.googleapis.com/css?family=Cinzel&display=swap" rel="stylesheet">
 
@@ -45,7 +45,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
 
 
-<link rel="stylesheet" href="assets/css/vision.css">
+    <link rel="stylesheet" href="assets/css/vision.css">
 
     <!-- This is the title I can think of so far, it can be changed at any time (Manuel) -->
     <title>Family Health Services & More</title>
@@ -58,7 +58,8 @@
         <div class="nav-wrapper">
             <a href="index.html" class="brand-logo"><i class="material-icons"><img
                         src="assets/images/logo-via-logohub.png" class="brand-logo" alt="Logo"></i></a>
-            <a href="index.html" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <a href="index.html" data-target="mobile-demo" class="sidenav-trigger"><i
+                    class="material-icons">menu</i></a>
             <ul class="right hide-on-med-and-down">
                 <li><a href="index.html" class="button"><i class="material-icons">home</i></a></li>
                 <li><a class="btn-flat transparent" id="rP1"><i class="material-icons">refresh</i></a></li>
@@ -75,51 +76,54 @@
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
 
-        <div class="container">
-            <div class="row"></div>
-            </br>
-            <div class="row">
-                <div class="col s4">
-                    <select id='op1'>
-                        <option value="" disabled selected>Specialties</option>
-                        <option value="Optometrist">Optometrist</option>
-                        <option value="Ophthalmologist">Ophthalmologist</option>
-                    </select>
+    <div class="container">
+        <div class="row"></div>
+        </br>
+        <div class="row">
+            <div class="col s4">
+                <select id='op1'>
+                    <option value="" disabled selected>Specialties</option>
+                    <option value="Optometrist">Optometrist</option>
+                    <option value="Ophthalmologist">Ophthalmologist</option>
+                </select>
+            </div>
+            <div class="col s1"></div>
+            <div class="col s7">
+                <form>
+                    <span>Zip Code: <input id="to-do" type="text" class="form-control clearFields" name="fullName"
+                            value=" ">
+                        <input id="add-to-do" class="btn waves-effect waves-light" value="submit" type="submit"></span>
+                </form>
+                </br>
+                </br>
+                <div id='loader' style='display: none;'>
+                    <img src='assets/images/demo_wait.gif' width='32px' height='32px'>
                 </div>
-                <div class="col s1"></div>
-                <div class="col s7">
-                    <form>
-                        <span>Zip Code: <input id="to-do" type="text" class="form-control clearFields" name="fullName"
-                                value=" ">
-                            <input id="add-to-do" class="btn waves-effect waves-light" value="submit" type="submit"></span>
-                    </form>
-                    </br>
-                    </br>
-                    <div id="doctorsList"></div>
-                </div>
+                <div id="doctorsList"></div>
             </div>
         </div>
+    </div>
 
-        <script>
+    <script>
 
-            $(document).ready(function () {
-                $('select').formSelect();
-            });
-        </script>
+        $(document).ready(function () {
+            $('select').formSelect();
+        });
+    </script>
 
-        <script type="text/javascript" src="assets/javascript/app.js"></script>
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
 
 
-        <footer id="footer">
-            <div class="row">
-                    <div class="col s12 social-media-buttons">
-                            <a href="https://www.facebook.com" class="fa fa-facebook" target="_blank"></a>
-                            <a href="https://www.instagram.com" class="fa fa-instagram" target="_blank"></a>
-                            <a href="https://www.youtube.com" class="fa fa-youtube" target="_blank"></a>
-                            <a href="https://twitter.com" class="fa fa-twitter" target="_blank"></a>
-                        </div>
+    <footer id="footer">
+        <div class="row">
+            <div class="col s12 social-media-buttons">
+                <a href="https://www.facebook.com" class="fa fa-facebook" target="_blank"></a>
+                <a href="https://www.instagram.com" class="fa fa-instagram" target="_blank"></a>
+                <a href="https://www.youtube.com" class="fa fa-youtube" target="_blank"></a>
+                <a href="https://twitter.com" class="fa fa-twitter" target="_blank"></a>
             </div>
-        </footer>
-    </body>
+        </div>
+    </footer>
+</body>
 
 </html>

@@ -100,7 +100,7 @@ $('#add-to-do').on("click", function (event) {
 
                         var gifDiv1 = $("<div>");
                         var gifDiv2 = $("<div>");
-                        gifDiv1.addClass("card blue-grey darken-1");
+                        gifDiv1.addClass("card white-grey darken-1");
                         gifDiv2.addClass("card-content white-text");
 
 

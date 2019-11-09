@@ -162,10 +162,10 @@ $('#add-to-do').on("click", function (event) {
     }
 });
 
-//Function  to re-start the app.
+//Function  to re-refresh the html page.
 
 $('#rP1').on('click', function rStart() {
-    window.location.href = "index.html";
+    window.location.reload(false);
 });
 
 

@@ -18,7 +18,7 @@ $('#add-to-do').on("click", function (event) {
 
     else {
 
-        //$("#doctorsList").empty();
+        $("#doctorsList").empty();
 
         console.log(zipcode);
 
@@ -60,25 +60,24 @@ $('#add-to-do').on("click", function (event) {
                 $("#loader").show();
             });
 
-            //$(document).ajaxComplete(function () {
-            // Hide image container
-            //    $("#loader").hide();
-            //});
 
             // Performing our AJAX GET request
+
             $.ajax({
                 url: queryURL,
                 method: "GET"
             })
                 // After the data comes back from the API
+
                 .then(function (response) {
+
                     // Storing an array of results in the results variable
 
                     var results = response.data;
-                    
+
                     $(document).ajaxComplete(function () {
-                    // Hide image container
-                         $("#loader").hide();
+                        // Hide image container
+                        $("#loader").hide();
                     });
 
                     // Looping over every result item

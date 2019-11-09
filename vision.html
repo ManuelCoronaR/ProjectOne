@@ -17,33 +17,35 @@
     <!-- The X-UA-Compatible meta tag is a http-equiv meta tag. -->
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <!-- jquery -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 
     <!-- healthcare favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon_io/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon_io/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon_io/favicon-16x16.png">
-    <!--<link rel="manifest" href="/Ssite.webmanifest"-->
 
-    <!-- Icon's link-->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     <!-- Reset CSS  -->
     <link rel="stylesheet" href="assets/css/reset.css">
 
-    <!-- <!- fontawesome css link  -->
-    <!--<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
-        integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 
-    <!-Compiled and minified - Materialize CSS  -->
+    <!-- Icon's link  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+    
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Cinzel&display=swap" rel="stylesheet">
+
+
+    <!--Compiled and minified - Materialize CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-
-    <!-- I will be creating a new file for every css code so we dont override the code after creating to many classes or ids  -->
-    <!--<link rel="stylesheet" href="assets/css/socialmediabutton.css">-->
 
     <!-- Our CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
+
+
+<link rel="stylesheet" href="assets/css/vision.css">
 
     <!-- This is the title I can think of so far, it can be changed at any time (Manuel) -->
     <title>Family Health Services & More</title>
@@ -52,20 +54,19 @@
 </head>
 
 <body>
-
     <nav>
         <div class="nav-wrapper">
             <a href="index.html" class="brand-logo"><i class="material-icons"><img
                         src="assets/images/logo-via-logohub.png" class="brand-logo" alt="Logo"></i></a>
-            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-
+            <a href="index.html" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
             <ul class="right hide-on-med-and-down">
-                <li><a class="btn-flat transparent"><i class="material-icons">search</i></a></li>
+                <li><a href="index.html" class="button"><i class="material-icons">home</i></a></li>
                 <li><a class="btn-flat transparent" id="rP1"><i class="material-icons">refresh</i></a></li>
             </ul>
-
         </div>
     </nav>
+
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- Compiled and minified CSS -->
@@ -90,7 +91,7 @@
                     <form>
                         <span>Zip Code: <input id="to-do" type="text" class="form-control clearFields" name="fullName"
                                 value=" ">
-                            <input id="add-to-do" value="submit" type="submit"></span>
+                            <input id="add-to-do" class="btn waves-effect waves-light" value="submit" type="submit"></span>
                     </form>
                     </br>
                     </br>

@@ -80,6 +80,7 @@ $('#add-to-do').on("click", function (event) {
                         var state = results[i].visit_address.state;
                         var zip = results[i].visit_address.zip;
                         var phone = results[i].phones[0].number;
+                        
 
                         var p = $("<p>");
                         var p1 = $("<span>").text(name);

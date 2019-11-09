@@ -45,7 +45,7 @@
     <!-- Our CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
 
-    <link rel="stylesheet" href="assets/css/vet.css">
+    <link rel="stylesheet" href="assets/css/physician.css">
 
     <!-- This is the title I can think of so far, it can be changed at any time (Manuel) -->
     <title>Family Health Services & More</title>
@@ -59,10 +59,10 @@
         <div class="nav-wrapper">
             <a href="index.html" class="brand-logo"><i class="material-icons"><img
                         src="assets/images/logo-via-logohub.png" class="brand-logo" alt="Logo"></i></a>
-            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <a href="index.html" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
 
             <ul class="right hide-on-med-and-down">
-                <li><a class="btn-flat transparent"><i class="material-icons">search</i></a></li>
+                <li><a href="index.html" class="button"><i class="material-icons">home</i></a></li>
                 <li><a class="btn-flat transparent"><i class="material-icons" id="rP1">refresh</i></a></li>
             </ul>
 
@@ -124,14 +124,13 @@
                         <option value="Podiatrist">Podiatrist</option>
                         <option value="Surgical Oncologist">Surgical Oncologist</option>
                     </select>
-                    <div class="gcse-search" id="search-style"></div>
                 </div>
                 <div class="col s1"></div>
                 <div class="col s7">
                     <form>
                         <span>Zip Code: <input id="to-do" type="text" class="form-control clearFields" name="fullName"
                                 value=" ">
-                            <input id="add-to-do" value="submit" type="submit"></span>
+                            <input id="add-to-do" class="btn waves-effect waves-light" value="submit" type="submit"></span>
                     </form>
                     </br>
                     </br>
@@ -139,16 +138,6 @@
                 </div>
             </div>
         </div>
-
-        <script>
-
-            $(document).ready(function () {
-                $('select').formSelect();
-            });
-        </script>
-
-        <script type="text/javascript" src="assets/javascript/app.js"></script>
-
         <footer id="footer">
             <div class="row">
                     <div class="col s12 social-media-buttons">
@@ -159,6 +148,17 @@
                         </div>
             </div>
         </footer>
+
+        <script>
+
+            $(document).ready(function () {
+                $('select').formSelect();
+            });
+        </script>
+
+        <script type="text/javascript" src="assets/javascript/app.js"></script>
+
+        
 </body>
 
 </html>

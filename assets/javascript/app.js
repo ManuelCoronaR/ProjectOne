@@ -18,7 +18,7 @@ $('#add-to-do').on("click", function (event) {
 
     else {
 
-        $("#doctorsList").empty();
+        //$("#doctorsList").empty();
 
         console.log(zipcode);
 

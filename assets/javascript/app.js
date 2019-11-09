@@ -3,7 +3,7 @@
 var laT1 = 0;
 var lnG1 = 0;
 
-  // Event listener for all button elements
+// Event listener for all button elements
 
 $('#add-to-do').on("click", function (event) {
 
@@ -16,9 +16,9 @@ $('#add-to-do').on("click", function (event) {
 
     var zipcode = $('#to-do').val().trim();
 
-// checking if the zip code given has 5 digits, if the zip code given has less or more than 5 digits 
-// there will not be any URL's construction to zipcodeapi, i.e., any AJAX call etc, otherwise
-// the rest of code is executed, etc.
+    // checking if the zip code given has 5 digits, if the zip code given has less or more than 5 digits 
+    // there will not be any URL's construction to zipcodeapi, i.e., any AJAX call etc, otherwise
+    // the rest of code is executed, etc.
 
     if (zipcode.toString().length != 5) {
         var p = $("<p>");
@@ -63,7 +63,7 @@ $('#add-to-do').on("click", function (event) {
         function sample2() {
 
             // radius of search around the location (latitude and longitude) estimated above
-            
+
             a = 10;
 
             // Constructing a URL to search betterdoctor for doctor's directory based on location
@@ -116,7 +116,7 @@ $('#add-to-do').on("click", function (event) {
 
                         bar1 = $('#op1').val().trim();
 
- 
+
                         // store the data from the second AJAX call 
 
                         if (sec === bar1) {

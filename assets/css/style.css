@@ -43,8 +43,8 @@ body {
 
 /* Circular Button */
 .container {
-    margin-top: 200px;
-    margin-left: 600px
+    margin-top: 150px;
+    margin-left: 550px
 }
 
 #box1 {
@@ -72,8 +72,8 @@ body {
 }
 
 #bx1 {
-    width: 220px;
-    height: 220px;
+    width: 150px;
+    height: 150px;
 }
 
 .circle {

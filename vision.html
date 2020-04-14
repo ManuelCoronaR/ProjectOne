@@ -58,11 +58,12 @@
         <div class="nav-wrapper">
             <a href="index.html" class="brand-logo"><i class="material-icons"><img
                         src="assets/images/logo-via-logohub.png" class="brand-logo" alt="Logo"></i></a>
-            <a href="index.html" data-target="mobile-demo" class="sidenav-trigger"><i
-                    class="material-icons">menu</i></a>
             <ul class="right hide-on-med-and-down">
                 <li><a href="index.html" class="button"><i class="material-icons">home</i></a></li>
                 <li><a class="btn-flat transparent" id="rP1"><i class="material-icons">refresh</i></a></li>
+            </ul>
+            <ul class="right hide-on-med-and-down">
+                <li><strong style="color:black;font-style: italic;">Miami-Dade County Area</strong></li>
             </ul>
         </div>
     </nav>
@@ -85,6 +86,7 @@
                     <option value="" disabled selected>Specialties</option>
                     <option value="Optometrist">Optometrist</option>
                     <option value="Ophthalmologist">Ophthalmologist</option>
+                    <option value="Pediatric ophthalmologist">Pediatric ophthalmologist</option>
                 </select>
             </div>
             <div class="col s1"></div>
@@ -96,8 +98,8 @@
                 </form>
                 </br>
                 </br>
-                <div id='loader' style='display: none;'>
-                    <img src='assets/images/demo_wait.gif' width='32px' height='32px'>
+                <div id="loader" style="display: none;">
+                    <img src="assets/images/demo_wait.gif" width="32px" height="32px">
                 </div>
                 <div id="doctorsList"></div>
             </div>
@@ -107,7 +109,7 @@
     <script>
 
         $(document).ready(function () {
-            $('select').formSelect();
+            $("select").formSelect();
         });
     </script>
 
